@@ -21,12 +21,18 @@
 }
 
 .sidebar-menu-icon {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
 }
 
-.sidebar-button {
+.sidebar-arrow {
   margin-top: auto;
   padding: 26px;
+  display: flex;
+  justify-content: center;
+}
 
+.sidebar-arrow-icon {
+  width: 10px;
+  height: 10px;
 }
