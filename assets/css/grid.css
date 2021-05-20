@@ -12,3 +12,7 @@ body {
   border-radius: 25px;
   display: flex;
 }
+
+.content {
+  width: 100%;
+}
