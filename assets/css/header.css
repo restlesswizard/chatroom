@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  height: 55px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.header-title {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-notification {
+  margin-right: 32px;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #eee;
+}

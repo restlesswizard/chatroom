@@ -1,0 +1,29 @@
+.channels {
+  display: flex;
+  max-height: 665px;
+  justify-content: space-between;
+}
+
+.channels-list {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eee;
+  flex-basis: 200px;
+}
+
+.channel {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.dirmsg-wrapper {
+  display: flex;
+}
+
+.channel-window {
+  flex-grow: 1;
+}
+
+.channel-sidebar {
+  flex-basis: 100px;
+}
