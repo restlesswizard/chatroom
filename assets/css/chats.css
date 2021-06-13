@@ -15,11 +15,27 @@
   min-height: 0;
   overflow: hidden;
   font-family: var(--font);
-  font-size: 14px;
+  font-size: var(--font-size);
+  margin-left: 24px;
 }
 
 ul {
   text-transform: capitalize;
+  padding-left: 16px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-bullet {
+  width: 14px;
+  height: 46px;
+  margin-right: 4px;
+}
+
+li {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .channel-name {
@@ -28,6 +44,8 @@ ul {
 
 .dirmsg-wrapper {
   display: flex;
+  font-family: var(--font);
+  font-size: var(--font-size);
 }
 
 .channel-window {
