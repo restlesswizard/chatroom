@@ -11,7 +11,12 @@
   flex-basis: 200px;
 }
 
-.channel {
+.channels-list:first-child {
+  margin-top: 16px
+}
+
+.channel,
+.direct-messages {
   min-height: 0;
   overflow: hidden;
   font-family: var(--font);
@@ -21,31 +26,51 @@
 
 ul {
   text-transform: capitalize;
-  padding-left: 16px;
   list-style-type: none;
   padding: 0;
 }
 
 .list-bullet {
-  width: 14px;
-  height: 46px;
+  width: 12px;
+  height: 12px;
   margin-right: 4px;
 }
 
 li {
-  margin-top: 8px;
   display: flex;
   align-items: center;
+  margin-top: 16px
 }
 
 .channel-name {
   text-transform: uppercase;
+  font-size: 13px;
+}
+
+.channel-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 .dirmsg-wrapper {
   display: flex;
   font-family: var(--font);
   font-size: var(--font-size);
+  align-items: center;
+}
+
+.user-name {
+  margin-left: 8px;
+}
+
+.add-user {
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 4px 8px;
+  font-size: 16px;
 }
 
 .channel-window {
