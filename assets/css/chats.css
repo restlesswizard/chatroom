@@ -1,6 +1,6 @@
 .channels {
   display: flex;
-  max-height: 665px;
+  height: 665px;
   justify-content: space-between;
 }
 
@@ -9,10 +9,11 @@
   flex-direction: column;
   border-right: 1px solid #eee;
   flex-basis: 200px;
+  align-items: flex-start;
 }
 
 .channels-list:first-child {
-  margin-top: 16px
+  padding-top: 16px
 }
 
 .channel,
@@ -21,7 +22,7 @@
   overflow: hidden;
   font-family: var(--font);
   font-size: var(--font-size);
-  margin-left: 24px;
+  padding-left: 24px;
 }
 
 ul {
@@ -53,6 +54,10 @@ li {
   text-decoration: none;
 }
 
+.direct-messages {
+  border-top: 1px solid #eee;
+}
+
 .dirmsg-wrapper {
   display: flex;
   font-family: var(--font);
@@ -75,6 +80,7 @@ li {
 
 .channel-window {
   flex-grow: 1;
+  border-right: 1px solid #eee;
 }
 
 .channel-sidebar {
