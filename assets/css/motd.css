@@ -1,0 +1,5 @@
+.motd {
+    display: flex;
+    height: 36px;
+    border-bottom: 1px solid #eee;
+}
