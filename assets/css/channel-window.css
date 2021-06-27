@@ -1,0 +1,38 @@
+.channel-window {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #eee;
+}
+
+.motd {
+    display: flex;
+    padding: 16px;
+    height: 12px;
+    align-items: center;
+    font-family: var(--font);
+    text-transform: capitalize;
+    font-size: var(--font-size);
+    border-bottom: 1px solid #eee;
+}
+
+.channel-desc {
+    margin-left: 16px;
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+.channel-members {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.channel-status {
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+}
+
+.channel-sidebar {
+    flex-basis: 350px;
+}
