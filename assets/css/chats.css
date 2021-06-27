@@ -11,6 +11,10 @@
   flex-basis: 200px;
 }
 
+.channels-list:first-child {
+  padding-top: 18px;
+}
+
 .channel,
 .direct-messages {
   min-height: 0;
